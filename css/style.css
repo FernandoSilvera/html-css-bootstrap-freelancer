@@ -1,0 +1,13 @@
+div, nav {
+  border: 2px dashed red;
+}
+
+nav {
+  text-align: center;
+}
+
+.element-centered {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
