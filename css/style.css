@@ -1,9 +1,35 @@
+div {
+  /* DEBUG */
+  padding: 1rem;
+}
+
 div, nav {
+  /* DEBUG */
   border: 2px dashed red;
+}
+
+section {
+  /* DEBUG */
+  padding: 2rem;
+  border: 2px dashed blue;
 }
 
 nav {
   text-align: center;
+}
+
+#jumbotron div, #portfolio div {
+  margin: 0 auto;
+}
+
+.jumbo-container {
+  max-width: 540px;
+  margin: 0 auto;;
+}
+
+.about-container {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .element-centered {
