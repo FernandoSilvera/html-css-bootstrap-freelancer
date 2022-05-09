@@ -1,11 +1,12 @@
-div {
-  /* DEBUG */
-  padding: 1rem;
-}
+:root {
+  --bs-primary: #19BC9C;
+  --bs-primary-rgb: 25, 188, 156;
+  --bs-primary-dark: #248e79;
 
-div, nav {
-  /* DEBUG */
-  border: 2px dashed red;
+  --bs-secondary: #3B536D;
+  --bs-secondary-rgb: 59, 83, 109;
+  --bs-dark: #2C3E4F;
+  --bs-dark-rgb: 44, 62, 79;
 }
 
 section {
@@ -21,6 +22,11 @@ nav {
 svg {
   width: 100%;
   height: 100%;
+}
+
+header h4 {
+  font-weight: 700;
+  margin: 0;
 }
 
 #jumbotron div, #portfolio div {
@@ -39,11 +45,21 @@ svg {
 
 .element-centered {
   display: flex;
-  justify-content: end;
   align-items: center;
 }
 
 .button-container {
   width: 32px;
   height: 32px;
+}
+
+.margin-left-auto {
+  margin-left: auto;
+}
+
+.header-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
 }
