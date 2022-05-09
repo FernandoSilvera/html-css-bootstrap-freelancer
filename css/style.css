@@ -19,6 +19,11 @@ nav {
   text-align: center;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 svg {
   width: 100%;
   height: 100%;
@@ -77,4 +82,11 @@ header h4 {
 .mini-logo-container {
   width: 55px;
   height: 55px;
+}
+
+.portfolio-img {
+  padding-bottom: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
 }
