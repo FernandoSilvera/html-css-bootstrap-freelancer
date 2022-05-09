@@ -9,12 +9,6 @@
   --bs-dark-rgb: 44, 62, 79;
 }
 
-section {
-  /* DEBUG */
-  padding: 2rem;
-  border: 2px dashed blue;
-}
-
 nav {
   text-align: center;
 }
@@ -32,6 +26,10 @@ svg {
 header h4 {
   font-weight: 700;
   margin: 0;
+}
+
+header a:hover {
+  color: var(--bs-primary);
 }
 
 button div {
@@ -65,6 +63,11 @@ footer p {
 #btn-download {
   border-color: var(--bs-light);
   border-radius: 8px;
+  color: var(--bs-light);
+}
+
+#btn-download:hover {
+  background-color: var(--bs-primary-dark);
 }
 
 #logo-download {
@@ -75,6 +78,16 @@ footer p {
 #logo-download svg {
   width: 20px;
   height: 20px;
+}
+
+#send {
+  color: var(--bs-light);
+  background-color: var(--bs-primary);
+}
+
+#send:hover {
+  color: var(--bs-light);
+  background-color: var(--bs-primary-dark);
 }
 
 .jumbo-container {
