@@ -29,9 +29,14 @@ header h4 {
   margin: 0;
 }
 
+#jumbotron h1 {
+  font-size: 56px;
+}
+
 #jumbotron div, #portfolio div {
   margin: 0 auto;
 }
+
 
 .jumbo-container {
   max-width: 540px;
@@ -62,4 +67,14 @@ header h4 {
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
+}
+
+.logo-container {
+  width: 250px;
+  height: 250px;
+}
+
+.mini-logo-container {
+  width: 55px;
+  height: 55px;
 }
